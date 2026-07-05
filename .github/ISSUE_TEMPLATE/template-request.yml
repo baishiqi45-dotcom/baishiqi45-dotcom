@@ -1,0 +1,36 @@
+name: Template request
+description: Request a new public-safe template or synthetic example.
+title: "[Template Request] "
+labels: ["template-request", "method-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a reusable public-safe template. Do not include private scripts, raw media, provider state, account material, customer material, or final acceptance truth.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - AI video production control
+        - DirectorShotIR / agent workflow
+        - Project Clinic
+        - Workflow rescue
+        - Video admission / verification
+        - Other public-safe method
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision should this template help with?
+      placeholder: Example: decide whether a generated clip can enter edit review.
+    validations:
+      required: true
+  - type: textarea
+    id: nonclaim
+    attributes:
+      label: What should the template avoid claiming?
+      placeholder: Example: it should not claim final artifact acceptance.
+    validations:
+      required: true

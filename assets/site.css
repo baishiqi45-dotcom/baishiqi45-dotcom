@@ -182,7 +182,8 @@ h3 {
 
 .band,
 .split,
-.proof {
+.proof,
+.star-band {
   padding: clamp(42px, 7vw, 92px) clamp(18px, 5vw, 72px);
   border-bottom: 1px solid var(--line);
 }
@@ -296,6 +297,23 @@ h3 {
   color: var(--muted);
 }
 
+.star-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: #ffffff;
+}
+
+.star-band div {
+  max-width: 820px;
+}
+
+.star-band p:not(.kicker) {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
 .site-footer p {
   max-width: 760px;
   margin: 0;
@@ -349,6 +367,11 @@ h3 {
   }
 
   .site-footer {
+    flex-direction: column;
+  }
+
+  .star-band {
+    align-items: flex-start;
     flex-direction: column;
   }
 }

@@ -1,5 +1,10 @@
 # 白子烨 | AI Product Execution Director
 
+[![GitHub Pages](https://img.shields.io/badge/public_site-live-245d4f)](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/)
+[![Methods](https://img.shields.io/badge/methods-public_library-2d5f8f)](methods/README.md)
+[![Templates](https://img.shields.io/badge/templates-ready_to_copy-a47526)](templates/README.md)
+[![Stars](https://img.shields.io/github/stars/baishiqi45-dotcom/baishiqi45-dotcom?style=social)](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom)
+
 I work at the intersection of film direction, AI video production, agent
 workflow, and non-engineer product control.
 
@@ -12,7 +17,9 @@ human reviewers can actually execute, inspect, retake, and learn from.
 [Public site](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/) ·
 [Methods](methods/README.md) · [Templates](templates/README.md) ·
 [Cases](cases/README.md) ·
-[Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose)
+[Roadmap](ROADMAP.md) ·
+[Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose) ·
+[Star this public method library](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom)
 
 ![AI production control loop](assets/ai-production-control-loop.svg)
 
@@ -52,6 +59,10 @@ That is the public lane here.
 | A repo/workflow has many demos but no acceptance boundary | [Workflow rescue keep/kill map](templates/workflow-rescue-keep-kill-map.md) |
 | A video artifact exists but nobody knows whether it is reviewable | [Video admission ladder](templates/video-admission-ladder.md) |
 
+If one of these templates saves you a false start, use the repository star as a
+bookmark. It helps other non-engineer operators and AI video teams discover the
+method library without turning the old tool repos into the headline.
+
 ## Public Case Tracks
 
 These case tracks expose method and boundaries, not private assets or final
@@ -63,6 +74,19 @@ project truth.
 | [Synthetic script-to-package sample](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | A complete public-safe example using an invented scene, not private script or production material. |
 | [DirectorShotIR and crew-style agent work](cases/CASE_02_DIRECTORSHOTIR_CREW.md) | How one vague "AI brain" becomes role-based creative responsibility: director, art, camera, critic, QA. |
 | [Project Clinic for non-engineers](cases/CASE_03_PROJECT_CLINIC.md) | How one messy request becomes a source bundle, first task packet, review checklist, and reusable lesson. |
+
+## Why Star This Repo
+
+Star this repository if you want a public reference for:
+
+- AI video continuity review before more generation spend;
+- director-style agent task packets instead of vague prompts;
+- non-engineer project startup packets before hiring or coding;
+- video admission gates that stop weak evidence from becoming final claims;
+- public-safe templates you can copy into private owner workspaces.
+
+The star target is this profile/method repository. The older repos below are
+supporting proof slices, not the main thing to promote.
 
 ## Public Building Blocks
 
