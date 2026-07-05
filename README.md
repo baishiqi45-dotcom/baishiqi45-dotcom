@@ -7,7 +7,7 @@ lessons that can be reused.
 
 > 我更关心一件事：把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链，而不是把一堆 AI 工具包装成产品。
 
-![AI production control loop](assets/aikb-control-loop.svg)
+![AI production control loop](assets/ai-production-control-loop.svg)
 
 ## Current Focus
 
@@ -35,7 +35,9 @@ project-owned work. They expose methods and boundaries, not private assets.
   cautious video-knowledge absorption protocol.
 
 See [Public Packaging Playbook](PUBLIC_PACKAGING_PLAYBOOK.md) for the website
-structure, case-study format, first content plan, and publishing boundaries.
+structure, case-study format, first content plan, and publishing boundaries. The
+current execution contract is
+[Public Packaging Execution Plan 2026-07-05](PACKAGING_EXECUTION_PLAN_2026-07-05.md).
 
 ## Building Blocks
 
@@ -45,7 +47,7 @@ larger control method.
 | Repository | Role in the system | Status |
 | --- | --- | --- |
 | [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | Intake pattern for turning messy material into review-required candidate evidence. | Reference slice |
-| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | Read-only advisor pattern where Codex keeps file access, local verification, and final judgment. | Reference slice |
+| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | Read-only advisor pattern where Codex keeps file access, local verification, and integration judgment over sidecar advice. | Reference slice |
 | [`epistemic-os`](https://github.com/baishiqi45-dotcom/epistemic-os) | Claim-scope guardrails so weak evidence does not become confident release language. | Guardrail slice |
 | [`netfix`](https://github.com/baishiqi45-dotcom/netfix) | Mac network rescue utility for operator downtime when agent tools cannot connect. | Practical utility |
 
@@ -57,10 +59,10 @@ larger control method.
   stay candidate material until the right owner accepts them.
 - **Director judgment into operator language**: taste, continuity, rhythm, and
   camera intent have to become inspectable instructions, not vague prompts.
-- **Boundary first**: AIKB organizes knowledge, routing, capability selection,
-  handoff, verification contracts, and lesson writeback. It does not own runtime
-  execution, provider orchestration, private project assets, billing, or final
-  artifact acceptance.
+- **Boundary first**: my private control layer organizes knowledge, routing,
+  capability selection, handoff, verification contracts, and lesson writeback.
+  It does not own runtime execution, provider orchestration, private project
+  assets, billing, or final artifact acceptance.
 
 ## Collaboration
 

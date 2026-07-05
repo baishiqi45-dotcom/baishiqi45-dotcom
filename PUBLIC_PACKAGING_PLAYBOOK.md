@@ -276,4 +276,4 @@ Before publishing a case or repo:
 - [ ] No "final", "accepted", "validated", or "production-ready" language unless
       the owner acceptance evidence is public and current.
 - [ ] Candidate, dry-run, fixture, and sidecar review are labeled as such.
-- [ ] The public value is legible without internal AIKB terminology.
+- [ ] The public value is legible without internal system terminology.
