@@ -434,17 +434,17 @@ Expected: the file is readable without private internal context.
 
 Steps:
 
-- [ ] Run `git status --short`.
-- [ ] Run `git diff --check`.
-- [ ] Run the sensitive scan from Task 5.
-- [ ] Commit with message:
+- [x] Run `git status --short`.
+- [x] Run `git diff --check`.
+- [x] Run the sensitive scan from Task 5.
+- [x] Commit with message:
 
 ```text
 Add public packaging execution package
 ```
 
-- [ ] Push `main`.
-- [ ] Re-read remote `PACKAGING_EXECUTION_PLAN_2026-07-05.md` and
+- [x] Push `main`.
+- [x] Re-read remote `PACKAGING_EXECUTION_PLAN_2026-07-05.md` and
       `website/HOME.md` from GitHub API.
 
 Verification:
@@ -472,16 +472,16 @@ Stop and re-admit before:
 
 The goal is complete only when all are true:
 
-- [ ] `PACKAGING_EXECUTION_PLAN_2026-07-05.md` exists and is pushed.
-- [ ] `website/HOME.md`, `website/METHODS.md`, and `website/SERVICES.md` exist.
-- [ ] Three public-safe case skeletons exist.
-- [ ] `content/FIRST_10_POSTS.md` exists with 10 usable drafts.
-- [ ] At least one independent review route was used or explicitly recorded as
+- [x] `PACKAGING_EXECUTION_PLAN_2026-07-05.md` exists and is pushed.
+- [x] `website/HOME.md`, `website/METHODS.md`, and `website/SERVICES.md` exist.
+- [x] Three public-safe case skeletons exist.
+- [x] `content/FIRST_10_POSTS.md` exists with 10 usable drafts.
+- [x] At least one independent review route was used or explicitly recorded as
       unnecessary with evidence.
-- [ ] `verification/PUBLIC_PACKAGING_VERIFICATION_2026-07-05.md` exists.
-- [ ] Sensitive scan passes.
-- [ ] Remote GitHub state proves the files are published.
-- [ ] Old repo satellite positioning remains intact.
+- [x] `verification/PUBLIC_PACKAGING_VERIFICATION_2026-07-05.md` exists.
+- [x] Sensitive scan passes.
+- [x] Remote GitHub state proves the files are published.
+- [x] Old repo satellite positioning remains intact.
 
 ## 8. Next Phase After This Goal
 

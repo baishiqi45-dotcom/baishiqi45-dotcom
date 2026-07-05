@@ -18,6 +18,7 @@ Profile repository files:
 - `cases/CASE_02_DIRECTORSHOTIR_CREW.md`
 - `cases/CASE_03_PROJECT_CLINIC.md`
 - `content/FIRST_10_POSTS.md`
+- `verification/PUBLIC_PACKAGING_VERIFICATION_2026-07-05.md`
 
 Supporting public repository first-screen positioning:
 
@@ -210,9 +211,33 @@ Result:
 PASS: no matches
 ```
 
-## Remote Evidence To Check After Push
+## Remote Publish Evidence
 
-After committing and pushing this package, verify:
+Initial execution package commit:
+
+```text
+dc34044 Add public packaging execution package
+```
+
+Observed pushed ref after publishing the execution package:
+
+```text
+dc3404416222f883a8e90cef739bbd261d7927c2 refs/heads/main
+```
+
+Remote files were re-read through the GitHub API after push:
+
+- `PACKAGING_EXECUTION_PLAN_2026-07-05.md`
+- `website/HOME.md`
+- `content/FIRST_10_POSTS.md`
+- `verification/PUBLIC_PACKAGING_VERIFICATION_2026-07-05.md`
+
+The first content pack was also counted remotely: `content/FIRST_10_POSTS.md`
+contains 10 numbered post drafts.
+
+## Remote Evidence To Recheck After Status Sync
+
+After committing and pushing this status-sync revision, verify:
 
 ```bash
 gh api repos/baishiqi45-dotcom/baishiqi45-dotcom/contents/PACKAGING_EXECUTION_PLAN_2026-07-05.md --jq .content | base64 --decode | sed -n '1,80p'
