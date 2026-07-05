@@ -1,71 +1,78 @@
-# AI product-control systems for non-engineer operators
+# 白子烨 | AI 产品执行导演
 
-I build knowledge-routing, agent-handoff, and verification tools that help an
-operator turn intent into selected sources, bounded execution, reviewable
-artifacts, and lessons that can be written back without pretending to own final
-project truth.
+Beijing Film Academy photography/directing background. I design AI-native
+production control systems that help a non-engineer operator turn rough intent
+into source selection, agent handoff, production packages, artifact review, and
+lessons that can be reused.
 
-> 中文一句话：我在做 AI 产品开发的控制层，让非工程师 operator 也能把意图、资料、工具选择、外部执行、产物验收和经验回写串成可审查的流程。
+> 我更关心一件事：把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链，而不是把一堆 AI 工具包装成产品。
 
-[![Focus: AI control systems](https://img.shields.io/badge/focus-AI%20control%20systems-334155)](#selected-public-work)
-[![Pattern: evidence first](https://img.shields.io/badge/pattern-evidence%20first-0f766e)](#how-i-work)
-[![Boundary: candidate before truth](https://img.shields.io/badge/boundary-candidate%20before%20truth-b45309)](#boundary)
+![AI production control loop](assets/aikb-control-loop.svg)
 
-![AIKB control loop](assets/aikb-control-loop.svg)
+## Current Focus
 
-## Selected public work
+| Line | What it means |
+| --- | --- |
+| **AI video production control** | From reviewed script to visual references, image evidence, shot packages, QA boundaries, retake notes, and low-context operator handoff. |
+| **Director-style agent workflows** | Turning story intent into performance, blocking, camera, transition, asset roles, review rules, and field-level retake responsibility. |
+| **Non-engineer AI product control** | Helping an operator move from intent to source/tool/research selection, owner-workspace handoff, artifact verification, and outcome-delta writeback. |
+| **Video admission and verification** | Keeping weak video evidence, fake current state, fake human review, and overconfident model claims out of production decisions. |
 
-The larger AIKB line includes private project material and operator-specific
-knowledge. These public repositories are the reusable slices: intake, sidecar
-review, claim scope, and operator-facing repair tools.
+## Public Case Directions
 
-| Project | What it proves | Start here |
+These are the public-safe case directions I am shaping from private and
+project-owned work. They expose methods and boundaries, not private assets.
+
+- **From script to dispatchable AI video packages**: a post-script production
+  control chain for AI video work.
+- **Turning one AI brain into a crew**: DirectorShotIR and role-based agent
+  collaboration for performance, camera, assets, review, and retake.
+- **Why AI short drama fails even when fields are complete**: watchability,
+  failure patterns, and retake judgment.
+- **Project Clinic for non-engineers**: turning a messy brief into a source
+  bundle, startup packet, review checklist, and outcome-delta note.
+- **From watching videos to reusable director knowledge**: a local, copyright
+  cautious video-knowledge absorption protocol.
+
+See [Public Packaging Playbook](PUBLIC_PACKAGING_PLAYBOOK.md) for the website
+structure, case-study format, first content plan, and publishing boundaries.
+
+## Building Blocks
+
+These repositories are not the headline. They are small public slices behind the
+larger control method.
+
+| Repository | Role in the system | Status |
 | --- | --- | --- |
-| [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | Provider-neutral intake for text, documents, pages, images, audio, and video. It turns messy material into review-required candidate packets before downstream systems treat it as truth. | Star it if source review and provenance are part of your agent workflow. |
-| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | A small pattern for using external models as read-only advisors while Codex keeps file access, local verification, and final judgment. | Star it if you care about bounded multi-agent review instead of model consensus theater. |
-| [`epistemic-os`](https://github.com/baishiqi45-dotcom/epistemic-os) | Deterministic claim-scope checks for AI outputs, so candidate notes do not become overconfident release claims. | Star it if your agents need guardrails around evidence strength. |
-| [`netfix`](https://github.com/baishiqi45-dotcom/netfix) | A Mac network rescue tool for real operator pain: paste HTTP/SOCKS5 proxy details, preflight, deploy, diagnose, and roll back safely. | Star it if Codex, ChatGPT, GitHub, or agent tools failing to connect has cost you time. |
+| [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | Intake pattern for turning messy material into review-required candidate evidence. | Reference slice |
+| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | Read-only advisor pattern where Codex keeps file access, local verification, and final judgment. | Reference slice |
+| [`epistemic-os`](https://github.com/baishiqi45-dotcom/epistemic-os) | Claim-scope guardrails so weak evidence does not become confident release language. | Guardrail slice |
+| [`netfix`](https://github.com/baishiqi45-dotcom/netfix) | Mac network rescue utility for operator downtime when agent tools cannot connect. | Practical utility |
 
-## The control loop
+## How I Work
 
-```text
-intent
-  -> source / tool / research selection
-  -> external project execution
-  -> artifact verification
-  -> lesson writeback
-```
-
-What matters is not "more agents." What matters is making every handoff
-inspectable: who received which evidence, what was allowed, what remained
-unproven, and what should not be promoted yet.
-
-## How I work
-
-- **Knowledge before execution**: organize source cards, route notes, tool
-  boundaries, and capability maps before asking an agent to change a project.
-- **Candidate before truth**: intake packets, sidecar reviews, and model output
-  are review material until a human or project owner accepts them.
-- **Local verification first**: edits, screenshots, tests, logs, and source
-  links matter more than confident summaries.
-- **Operator-first design**: the system should help a non-engineer decide the
-  next safe action, not just produce more technical output.
-
-## Boundary
-
-AIKB is the knowledge, routing, and capability-organization layer. It does not
-own runtime execution, provider orchestration, private project assets, billing,
-or final artifact acceptance. External project work stays in its owning
-workspace; public repos here expose reusable tools and methods.
+- **Case before tool**: a tool is only worth naming when it helped a real
+  production, product, or verification problem.
+- **Evidence before claim**: model output, sidecar advice, dry-runs, and fixtures
+  stay candidate material until the right owner accepts them.
+- **Director judgment into operator language**: taste, continuity, rhythm, and
+  camera intent have to become inspectable instructions, not vague prompts.
+- **Boundary first**: AIKB organizes knowledge, routing, capability selection,
+  handoff, verification contracts, and lesson writeback. It does not own runtime
+  execution, provider orchestration, private project assets, billing, or final
+  artifact acceptance.
 
 ## Collaboration
 
-For a concrete issue, open it in the relevant repository with:
+Useful conversations usually start with one of these:
 
-- the source or workflow you are trying to review;
-- what the agent claimed;
-- what evidence exists;
-- what still needs human acceptance.
+- an AI video or short-drama project that keeps failing at continuity, rhythm,
+  asset control, or review;
+- a non-engineer product idea that needs a source/tool/agent execution route
+  before hiring engineers or opening a large build;
+- an AI workflow that produces many artifacts but no reliable acceptance
+  boundary.
 
-If one of the public mechanisms helps your own AI product workflow, starring
-that repository is the easiest way to help others find the same pattern.
+If the question is about a public slice, open an issue in the relevant
+repository. If it is about a private project, keep project material in its owner
+workspace and discuss only the method, boundary, and review contract publicly.
