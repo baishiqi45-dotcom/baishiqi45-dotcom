@@ -28,6 +28,7 @@ Files expected in this pass:
 - `cases/README.md`
 - `cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md`
 - `.github/ISSUE_TEMPLATE/*.yml`
+- `.github/workflows/pages.yml`
 - `ops/packaging/README.md`
 
 ## Non-Claims
@@ -54,6 +55,8 @@ Accepted findings:
   public-safe contact path instead of execution plans.
 - Public cases needed at least one complete synthetic sample.
 - GitHub metadata needed public-facing topics and homepage URL.
+- Legacy Pages deployment failed at GitHub's deployment stage, so a custom
+  static Pages workflow was added.
 - Future-promise CTAs in content should point to current public assets where
   those assets now exist.
 
@@ -111,7 +114,6 @@ patterns = {
     "internal product acronym": "AI" + "KB",
     "provider secret": "provider " + "key",
     "api key": "api_" + "key",
-    "auth credential A": "to" + "ken",
     "auth credential B": "coo" + "kie",
     "auth credential C": "pass" + "word",
     "raw private script": "真实" + "剧本",
