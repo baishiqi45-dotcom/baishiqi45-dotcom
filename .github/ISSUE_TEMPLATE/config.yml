@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Public method library
+    url: https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/tree/main/methods
+    about: Read the public method cards before opening a public issue.
+  - name: Public templates
+    url: https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/tree/main/templates
+    about: Start from a blank public-safe template.

@@ -1,7 +1,7 @@
-# Services Copy Draft
+# Services
 
-This page is a public-facing offer draft. It describes control work and review
-contracts, not runtime ownership or final artifact acceptance.
+This page describes public-facing control work and review contracts, not runtime
+ownership or final artifact acceptance.
 
 ## Offer 1: AI Project Control Diagnostic
 
@@ -46,7 +46,7 @@ Not in scope:
 CTA:
 
 ```text
-Start with a control diagnostic.
+Open a Project Clinic issue with public-safe context.
 ```
 
 ## Offer 2: AI Video Production Control Sprint
@@ -92,7 +92,7 @@ Not in scope:
 CTA:
 
 ```text
-Make the AI video workflow reviewable before generating more.
+Open an AI video production control issue with public-safe context.
 ```
 
 ## Offer 3: Workflow Rescue Review
@@ -134,7 +134,7 @@ Not in scope:
 CTA:
 
 ```text
-Recover the project route before more work piles up.
+Open a workflow rescue issue with public-safe context.
 ```
 
 ## Offer 4: Retainer: AI Execution System
@@ -180,4 +180,10 @@ CTA:
 
 ```text
 Build a repeatable AI execution system.
+```
+
+Public-safe contact path:
+
+```text
+https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose
 ```

@@ -84,3 +84,7 @@ synthetic_script_to_package_sample.md
 ```
 
 It should demonstrate the chain without using private scripts or assets.
+
+Current public sample:
+
+[Synthetic script-to-package sample](SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md)

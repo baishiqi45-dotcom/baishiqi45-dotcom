@@ -1,0 +1,41 @@
+name: AI video production control
+description: Discuss an AI video control, continuity, review, or retake problem without private assets.
+title: "[AI Video Control] "
+labels: ["ai-video", "method-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public-safe. Do not upload private scripts, raw media, provider screenshots, account state, customer material, or final acceptance truth.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is losing control?
+      description: Describe the failure in public-safe terms.
+      placeholder: Character continuity drifts across shots; retakes change unrelated fields.
+    validations:
+      required: true
+  - type: checkboxes
+    id: locks
+    attributes:
+      label: Which continuity locks are involved?
+      options:
+        - label: Character
+        - label: Space
+        - label: Prop
+        - label: Action
+        - label: Emotion
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public-safe evidence
+      description: Summarize the evidence without attaching private assets.
+    validations:
+      required: true
+  - type: textarea
+    id: desired-output
+    attributes:
+      label: What kind of public method help would be useful?
+      placeholder: A retake checklist, continuity-lock review, or package structure.
+    validations:
+      required: true

@@ -133,5 +133,5 @@ Book an AI Project Control Diagnostic
 Fallback CTA before a public scheduling link exists:
 
 ```text
-Use the collaboration instructions on the GitHub profile, or open a focused issue in the relevant public repository.
+Use the GitHub profile issue templates for public-safe method discussion.
 ```

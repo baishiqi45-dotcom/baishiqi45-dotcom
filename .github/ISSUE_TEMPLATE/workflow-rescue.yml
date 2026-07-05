@@ -1,0 +1,30 @@
+name: Workflow rescue and verification
+description: Discuss a public-safe keep/kill, current-state, or acceptance-boundary problem.
+title: "[Workflow Rescue] "
+labels: ["workflow-rescue", "verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public-safe. Do not upload private files, account state, provider logs, customer material, or final acceptance truth.
+  - type: textarea
+    id: inventory
+    attributes:
+      label: What exists now?
+      description: List artifact types only, such as prompts, demos, repos, screenshots, reports, exports.
+    validations:
+      required: true
+  - type: textarea
+    id: confusion
+    attributes:
+      label: What is unclear?
+      placeholder: What is current, what is candidate, what is accepted, what should be killed?
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision do you need?
+      placeholder: Keep/kill map, verification ladder, next route, or owner boundary.
+    validations:
+      required: true

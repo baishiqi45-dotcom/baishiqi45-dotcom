@@ -1,0 +1,42 @@
+name: Project Clinic for non-engineers
+description: Turn a public-safe product/workflow idea into a first-action route.
+title: "[Project Clinic] "
+labels: ["project-clinic", "method-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public-safe. Do not paste private repo paths, customer material, account state, provider details, or final acceptance truth.
+  - type: textarea
+    id: intent
+    attributes:
+      label: Original intent
+      description: What are you trying to make or decide?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Known public-safe sources
+      description: What evidence, examples, or constraints can be described publicly?
+    validations:
+      required: true
+  - type: dropdown
+    id: likely-route
+    attributes:
+      label: What route are you considering?
+      options:
+        - Research first
+        - Prototype first
+        - Design first
+        - Agent task first
+        - Engineer handoff first
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: blocker
+    attributes:
+      label: What is the current blocker?
+    validations:
+      required: true

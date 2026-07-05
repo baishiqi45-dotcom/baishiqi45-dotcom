@@ -1,50 +1,74 @@
-# 白子烨 | AI 产品执行导演
+# 白子烨 | AI Product Execution Director
 
-Beijing Film Academy photography/directing background. I design AI-native
-production control systems that help a non-engineer operator turn rough intent
-into source selection, agent handoff, production packages, artifact review, and
-lessons that can be reused.
+I work at the intersection of film direction, AI video production, agent
+workflow, and non-engineer product control.
 
-> 我更关心一件事：把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链，而不是把一堆 AI 工具包装成产品。
+My public work is about one missing layer: turning creative intent and product
+intent into work that AI coding agents, external engineers, video tools, and
+human reviewers can actually execute, inspect, retake, and learn from.
+
+> 我把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链。
+
+[Public site](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/) ·
+[Methods](methods/README.md) · [Templates](templates/README.md) ·
+[Cases](cases/README.md) ·
+[Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose)
 
 ![AI production control loop](assets/ai-production-control-loop.svg)
 
-## Current Focus
+## What I Am Packaging Publicly
 
-| Line | What it means |
+| Public pillar | What I make concrete |
 | --- | --- |
-| **AI video production control** | From reviewed script to visual references, image evidence, shot packages, QA boundaries, retake notes, and low-context operator handoff. |
-| **Director-style agent workflows** | Turning story intent into performance, blocking, camera, transition, asset roles, review rules, and field-level retake responsibility. |
-| **Non-engineer AI product control** | Helping an operator move from intent to source/tool/research selection, owner-workspace handoff, artifact verification, and outcome-delta writeback. |
-| **Video admission and verification** | Keeping weak video evidence, fake current state, fake human review, and overconfident model claims out of production decisions. |
+| **AI video production control** | Script intent, visual reference roles, shot/package logic, continuity locks, QA boundaries, retake notes, and low-context operator handoff. |
+| **Director-style agent workflows** | Turning performance, blocking, camera, transition, asset roles, review rules, and retake targets into agent-readable work. |
+| **Project Clinic for non-engineers** | Turning a messy product/workflow idea into source selection, capability route, first task packet, review checklist, and outcome-delta note. |
+| **Video admission and verification** | Separating raw artifacts, static evidence, human playback, relation checks, owner seal, and final acceptance boundaries. |
 
-## Public Case Directions
+## Why This Is Not A Generic Engineering Profile
 
-These are the public-safe case directions I am shaping from private and
-project-owned work. They expose methods and boundaries, not private assets.
+I started from Beijing Film Academy photography/directing. My advantage is not
+pretending to be a conventional full-stack engineer. It is translating image,
+narrative, rhythm, continuity, taste, and operator reality into AI-native work
+systems.
 
-- **From script to dispatchable AI video packages**: a post-script production
-  control chain for AI video work.
-- **Turning one AI brain into a crew**: DirectorShotIR and role-based agent
-  collaboration for performance, camera, assets, review, and retake.
-- **Why AI short drama fails even when fields are complete**: watchability,
-  failure patterns, and retake judgment.
-- **Project Clinic for non-engineers**: turning a messy brief into a source
-  bundle, startup packet, review checklist, and outcome-delta note.
-- **From watching videos to reusable director knowledge**: a local, copyright
-  cautious video-knowledge absorption protocol.
+Many people can use an AI coding agent casually. The harder layer is knowing:
 
-See [Public Packaging Playbook](PUBLIC_PACKAGING_PLAYBOOK.md) for the website
-structure, case-study format, first content plan, and publishing boundaries. The
-current execution contract is
-[Public Packaging Execution Plan 2026-07-05](PACKAGING_EXECUTION_PLAN_2026-07-05.md).
+- what source the agent should read first;
+- what a tool output is allowed to prove;
+- when a generated artifact is only candidate evidence;
+- how to turn a creative failure into a field-level retake;
+- what should be written back as reusable method rather than fake project truth.
 
-## Building Blocks
+That is the public lane here.
 
-These repositories are not the headline. They are small public slices behind the
-larger control method.
+## Start Here
 
-| Repository | Role in the system | Status |
+| Need | Best first artifact |
+| --- | --- |
+| AI video keeps breaking continuity or taste | [AI video continuity locks](templates/ai-video-continuity-locks.md) |
+| A team says "the AI output is bad" but cannot name why | [Failure-layer debug table](methods/README.md#failure-layer-debug-table) |
+| A non-engineer product idea needs the right first action | [Project Clinic startup packet](templates/project-clinic-startup-packet.md) |
+| A repo/workflow has many demos but no acceptance boundary | [Workflow rescue keep/kill map](templates/workflow-rescue-keep-kill-map.md) |
+| A video artifact exists but nobody knows whether it is reviewable | [Video admission ladder](templates/video-admission-ladder.md) |
+
+## Public Case Tracks
+
+These case tracks expose method and boundaries, not private assets or final
+project truth.
+
+| Case | Public value |
+| --- | --- |
+| [Script to dispatchable AI video packages](cases/CASE_01_SCRIPT_TO_PACKAGES.md) | How script intent becomes visual reference roles, image evidence, package review, retake logic, and operator handoff. |
+| [Synthetic script-to-package sample](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | A complete public-safe example using an invented scene, not private script or production material. |
+| [DirectorShotIR and crew-style agent work](cases/CASE_02_DIRECTORSHOTIR_CREW.md) | How one vague "AI brain" becomes role-based creative responsibility: director, art, camera, critic, QA. |
+| [Project Clinic for non-engineers](cases/CASE_03_PROJECT_CLINIC.md) | How one messy request becomes a source bundle, first task packet, review checklist, and reusable lesson. |
+
+## Public Building Blocks
+
+These repositories are supporting slices. They are not the headline.
+
+| Repository | Role | Public status |
 | --- | --- | --- |
 | [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | Intake pattern for turning messy material into review-required candidate evidence. | Reference slice |
 | [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | Read-only advisor pattern where Codex keeps file access, local verification, and integration judgment over sidecar advice. | Reference slice |
@@ -53,28 +77,25 @@ larger control method.
 
 ## How I Work
 
-- **Case before tool**: a tool is only worth naming when it helped a real
-  production, product, or verification problem.
-- **Evidence before claim**: model output, sidecar advice, dry-runs, and fixtures
-  stay candidate material until the right owner accepts them.
-- **Director judgment into operator language**: taste, continuity, rhythm, and
-  camera intent have to become inspectable instructions, not vague prompts.
-- **Boundary first**: my private control layer organizes knowledge, routing,
-  capability selection, handoff, verification contracts, and lesson writeback.
-  It does not own runtime execution, provider orchestration, private project
-  assets, billing, or final artifact acceptance.
+- **Case before tool:** a tool is worth naming only when it changes a real
+  production, product, or verification decision.
+- **Evidence before claim:** model output, sidecar advice, dry-runs, screenshots,
+  and fixtures stay candidate material until the right owner accepts them.
+- **Director judgment into operator language:** taste, continuity, rhythm, and
+  camera intent become inspectable instructions, not vague prompts.
+- **Boundary first:** private project material stays in its owner workspace. The
+  public layer shows method, synthetic examples, templates, and review contracts.
 
 ## Collaboration
 
 Useful conversations usually start with one of these:
 
-- an AI video or short-drama project that keeps failing at continuity, rhythm,
+- an AI video or short-drama workflow that keeps failing at continuity, rhythm,
   asset control, or review;
 - a non-engineer product idea that needs a source/tool/agent execution route
   before hiring engineers or opening a large build;
-- an AI workflow that produces many artifacts but no reliable acceptance
-  boundary.
+- an AI workflow with many artifacts but no reliable acceptance boundary.
 
-If the question is about a public slice, open an issue in the relevant
-repository. If it is about a private project, keep project material in its owner
-workspace and discuss only the method, boundary, and review contract publicly.
+Use the issue templates in this repository for public, method-level discussion.
+Do not upload private scripts, raw media, provider screenshots, account state,
+customer material, or final project acceptance truth to public issues.

@@ -134,7 +134,7 @@ DirectorShotIR field card
 CTA:
 
 ```text
-我会继续公开一套 DirectorShotIR 的 plain-language 方法卡。
+方法卡已整理在 GitHub profile 的 DirectorShotIR field card。
 ```
 
 Boundary:
@@ -184,7 +184,7 @@ Visual suggestion:
 CTA:
 
 ```text
-我会把这张返修卡做成公开模板。
+返修卡已整理成 AI video continuity locks 模板。
 ```
 
 Boundary:
@@ -229,7 +229,7 @@ Project Clinic startup packet diagram
 CTA:
 
 ```text
-我会发布一个公开版 startup packet 模板。
+公开版 Project Clinic startup packet 已放在 GitHub profile。
 ```
 
 Boundary:
@@ -283,7 +283,7 @@ Animated control-chain diagram
 CTA:
 
 ```text
-完整方法会整理成一个 synthetic case，不放私有剧本和提示词。
+完整 synthetic case 已放在 GitHub profile，不含私有剧本和提示词。
 ```
 
 Boundary:
@@ -372,7 +372,7 @@ Five-layer digestion ladder
 CTA:
 
 ```text
-我会发布一个空白方法卡模板。
+空白方法卡模板已放在 GitHub profile 的 templates 目录。
 ```
 
 Boundary:
@@ -418,7 +418,7 @@ Admission ladder card
 CTA:
 
 ```text
-这套 gate 会进入我的 AI 影像生产控制方法库。
+这套 gate 已整理成 Video Admission Ladder 模板。
 ```
 
 Boundary:
@@ -462,7 +462,7 @@ Before: repo list / After: method-control loop
 CTA:
 
 ```text
-接下来我会公开更多方法卡，而不是求 star。
+现在可以从 GitHub profile 的 methods、cases、templates 入口直接看方法。
 ```
 
 Boundary:
