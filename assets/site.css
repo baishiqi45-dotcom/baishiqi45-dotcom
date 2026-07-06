@@ -193,6 +193,7 @@ h3 {
 }
 
 .band,
+.showcase-band,
 .split,
 .proof,
 .star-band {
@@ -237,6 +238,20 @@ h3 {
 
 .link-tile:hover {
   border-color: var(--blue);
+}
+
+.method-preview {
+  margin: 0;
+}
+
+.method-preview img {
+  display: block;
+  width: min(100%, 1180px);
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .split {

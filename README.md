@@ -73,6 +73,8 @@ The fastest route is: read one filled synthetic example, copy one blank
 template, fill only public-safe or owner-approved material, then open an issue
 only if the question can be discussed without private assets.
 
+![Copy-ready public method preview](assets/method-preview-strip.png)
+
 ## Public Case Tracks
 
 These case tracks expose method and boundaries, not private assets or final
