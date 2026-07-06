@@ -14,6 +14,15 @@ verification.
   examples;
 - translations that preserve boundaries and non-claims.
 
+## Good First Contribution Types
+
+| Contribution | Done when |
+| --- | --- |
+| Filled synthetic example | The example uses invented material, links to a blank template, and names what it does not prove. |
+| Template clarity fix | A non-engineer can fill the template without extra explanation. |
+| Broken link or typo fix | The changed link resolves locally and on GitHub. |
+| Public-safe method language | The wording helps a reader decide source, route, review, retake, or boundary. |
+
 ## Not Accepted
 
 - private project assets;
@@ -29,3 +38,11 @@ verification.
 3. Name what the method should help decide.
 4. Name what the method does not prove.
 5. Keep final acceptance with the actual project owner.
+6. Use the pull request template if you submit a file change.
+
+## Community Files
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Support boundary](SUPPORT.md)
+- [Security policy](SECURITY.md)
+- [License](LICENSE)

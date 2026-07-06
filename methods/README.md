@@ -16,6 +16,7 @@ Use when AI video clips look acceptable one by one but fail as a sequence.
 | Emotion | What performance state is inherited or broken? | fear, refusal, intimacy, suspicion, release |
 
 Template: [AI video continuity locks](../templates/ai-video-continuity-locks.md)
+Filled example: [repair-shop continuity locks](../examples/filled-ai-video-continuity-locks-repair-shop.md)
 
 ## Failure-Layer Debug Table
 
@@ -46,6 +47,7 @@ Use when creative judgment needs to become agent-readable work.
 | Retake target | The smallest field to change if it fails. |
 
 Template: [DirectorShotIR field card](../templates/directorshotir-field-card.md)
+Filled example: [oppressive corridor note](../examples/filled-directorshotir-oppressive-corridor.md)
 
 ## Project Clinic Startup Packet
 
@@ -53,6 +55,7 @@ Use when a non-engineer has a product/workflow idea but the first safe action is
 unclear.
 
 Template: [Project Clinic startup packet](../templates/project-clinic-startup-packet.md)
+Filled example: [creator workflow dashboard](../examples/filled-project-clinic-creator-dashboard.md)
 
 ## Video Admission Ladder
 

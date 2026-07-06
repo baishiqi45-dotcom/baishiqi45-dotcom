@@ -1,10 +1,10 @@
 # Public Roadmap
 
-This roadmap exists to make the repository worth watching and starring. It
+This roadmap exists to make the repository useful enough to revisit. It
 prioritizes reusable public methods, synthetic examples, and issue-driven
 templates. It does not publish private project assets or final acceptance truth.
 
-## Star-Worthy Milestones
+## Method Milestones
 
 | Milestone | Why it matters | Status |
 | --- | --- | --- |
@@ -13,30 +13,31 @@ templates. It does not publish private project assets or final acceptance truth.
 | Project Clinic startup packet | Helps non-engineers choose a safe first action. | Done |
 | Synthetic script-to-package case | Shows the control chain without private material. | Done |
 | Video admission ladder | Separates artifact evidence from final acceptance. | Done |
-| DirectorShotIR synthetic teardown | Shows how a vague directing note becomes agent tasks. | Next |
-| Project Clinic synthetic teardown | Shows a messy public-safe idea becoming a startup packet. | Next |
+| DirectorShotIR synthetic teardown | Shows how a vague directing note becomes agent tasks. | Done |
+| Project Clinic synthetic teardown | Shows a messy public-safe idea becoming a startup packet. | Done |
+| v0.1.0 public release | Gives the method library a stable version anchor. | Done |
 | One-page PDF method cards | Makes templates easier to share outside GitHub. | Planned |
 | Short video walkthrough | Turns the method into a visible explanation for social channels. | Planned |
 | Template request backlog | Lets visitors ask for useful public-safe templates. | Planned |
 
 ## Next 30 Days
 
-1. Publish a DirectorShotIR synthetic teardown.
-2. Publish a Project Clinic synthetic teardown.
-3. Add a one-page visual PDF for the continuity locks.
-4. Turn `content/FIRST_10_POSTS.md` into public posts with links back to the
+1. Add a one-page visual PDF for the continuity locks.
+2. Turn `content/FIRST_10_POSTS.md` into public posts with links back to the
    relevant template or case.
-5. Open three public "template request" issues so visitors know what kind of
-   contribution is welcome.
+3. Convert the open template-request issues into small contributor tasks with a
+   done definition and expected file path.
+4. Add filled synthetic examples for the remaining blank templates.
+5. Publish a short walkthrough that points to one concrete template or case.
 
-## Star Conversion Principle
+## Bookmark Principle
 
-Do not ask for stars as vanity. Ask for stars when the repository has just
-helped someone:
+Do not ask for stars as vanity. If the repository has helped someone, the star
+can be framed as an optional bookmark:
 
 ```text
-If this template saved you a false start, star the repository so other operators
-can find the method library.
+If this template saved you a false start, star the repository as a bookmark so
+you can find the method library again.
 ```
 
 ## Non-Claims

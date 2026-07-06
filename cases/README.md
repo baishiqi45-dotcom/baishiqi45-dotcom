@@ -7,9 +7,15 @@ final acceptance truth.
 ## Cases
 
 1. [从剧本到可派发抽卡包：AI 影像生产总控链](CASE_01_SCRIPT_TO_PACKAGES.md)
-2. [Synthetic script-to-package sample](SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md)
+2. [Filled synthetic script-to-package sample](SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md)
 3. [把一个 AI 脑子拆成剧组：DirectorShotIR 与 AI 导演控制](CASE_02_DIRECTORSHOTIR_CREW.md)
 4. [一句需求如何变成启动包、审阅清单和经验写回](CASE_03_PROJECT_CLINIC.md)
+
+## Filled Examples
+
+- [AI video continuity locks: repair shop scene](../examples/filled-ai-video-continuity-locks-repair-shop.md)
+- [DirectorShotIR: oppressive corridor note](../examples/filled-directorshotir-oppressive-corridor.md)
+- [Project Clinic: creator workflow dashboard](../examples/filled-project-clinic-creator-dashboard.md)
 
 ## Case Format
 

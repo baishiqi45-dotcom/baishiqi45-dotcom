@@ -40,6 +40,37 @@ Public-safe handoff shape:
 - outcome-delta stub;
 - non-claims.
 
+## Synthetic Teardown: Messy Request To First Safe Action
+
+Messy request:
+
+```text
+I want an AI dashboard that turns my short-drama ideas into video tasks. Can an
+agent build it?
+```
+
+Why this is not ready for coding:
+
+- "dashboard" jumps to UI before source and acceptance are clear;
+- the real first question is whether one scene can become a usable task packet;
+- private scripts, screenshots, and provider state must not enter a public
+  example;
+- the operator needs a review checklist before asking for implementation.
+
+Project Clinic route:
+
+| Clinic field | Public-safe answer |
+| --- | --- |
+| Original intent | Reduce prompt rewrites by turning one scene into a repeatable task packet. |
+| Known sources | Public templates and one invented scene. |
+| Missing sources | Owner acceptance criteria and self-owned examples. |
+| Candidate route | Markdown packet first; UI prototype later. |
+| First safe action | Fill one Project Clinic startup packet using synthetic material. |
+| Stop condition | If the packet needs private assets to make sense, do not publish it. |
+
+The filled public-safe packet is here:
+[Project Clinic creator workflow dashboard example](../examples/filled-project-clinic-creator-dashboard.md).
+
 ## How The Artifact Was Reviewed
 
 Review asks:
@@ -74,10 +105,7 @@ Safe public material:
 - decision checklist;
 - writeback note template.
 
-## Next Public Artifact
+## Current Public Artifacts
 
-Create a downloadable template:
-
-```text
-project_clinic_startup_packet_public_template.md
-```
+- [Project Clinic startup packet](../templates/project-clinic-startup-packet.md)
+- [Project Clinic filled synthetic example](../examples/filled-project-clinic-creator-dashboard.md)

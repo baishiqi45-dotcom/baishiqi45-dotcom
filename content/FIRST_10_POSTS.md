@@ -134,7 +134,7 @@ DirectorShotIR field card
 CTA:
 
 ```text
-方法卡已整理在 GitHub profile 的 DirectorShotIR field card。
+方法卡在 `templates/directorshotir-field-card.md`，填好的 synthetic example 在 `examples/filled-directorshotir-oppressive-corridor.md`。
 ```
 
 Boundary:
@@ -229,7 +229,7 @@ Project Clinic startup packet diagram
 CTA:
 
 ```text
-公开版 Project Clinic startup packet 已放在 GitHub profile。
+公开版 Project Clinic startup packet 在 `templates/project-clinic-startup-packet.md`，填好的 synthetic example 在 `examples/filled-project-clinic-creator-dashboard.md`。
 ```
 
 Boundary:
@@ -283,7 +283,7 @@ Animated control-chain diagram
 CTA:
 
 ```text
-完整 synthetic case 已放在 GitHub profile，不含私有剧本和提示词。
+完整 synthetic case 在 `cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md`，不含私有剧本和提示词。
 ```
 
 Boundary:
@@ -372,7 +372,7 @@ Five-layer digestion ladder
 CTA:
 
 ```text
-空白方法卡模板已放在 GitHub profile 的 templates 目录。
+空白方法卡模板在 `templates/` 目录，填好的 synthetic examples 在 `examples/` 目录。
 ```
 
 Boundary:
@@ -462,7 +462,7 @@ Before: repo list / After: method-control loop
 CTA:
 
 ```text
-现在可以从 GitHub profile 的 methods、cases、templates 入口直接看方法。
+现在可以从 `methods/`、`cases/`、`templates/` 和 `examples/` 入口直接看方法。
 ```
 
 Boundary:

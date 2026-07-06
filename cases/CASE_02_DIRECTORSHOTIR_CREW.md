@@ -50,6 +50,35 @@ Public-safe handoff shape:
 - synthetic before/after critique;
 - no-private-script demonstration.
 
+## Synthetic Teardown: Director Note To Agent Task
+
+Vague director note:
+
+```text
+Make this corridor feel oppressive.
+```
+
+Why that fails as an agent task:
+
+- it names a feeling but not the visible behavior;
+- it does not say whether pressure comes from performance, blocking, camera, or
+  art direction;
+- it gives no review rule, so a retake becomes "make it better";
+- it risks changing layout, mood, and performance at the same time.
+
+DirectorShotIR translation:
+
+| Field | Agent-readable instruction | Review rule | Retake target |
+| --- | --- | --- | --- |
+| Performance | Character slows down, holds breath, shoulders tight. | Fail if she runs or overacts fear. | Performance intensity. |
+| Blocking | Stay close to the wall; stop before the final door. | Fail if she crosses the full corridor too early. | Blocking distance. |
+| Camera | Low, slightly compressed framing; door line dominates. | Fail if the shot becomes a neutral hallway wide. | Camera height/framing. |
+| Transition | End before the door opens. | Fail if the reveal happens in this shot. | Transition boundary. |
+| Asset roles | Corridor geometry is binding; cold color is mood only. | Fail if mood reference changes the layout. | Asset role clarification. |
+
+The filled public-safe field card is here:
+[DirectorShotIR oppressive corridor example](../examples/filled-directorshotir-oppressive-corridor.md).
+
 ## How The Artifact Was Reviewed
 
 Review asks:
@@ -82,12 +111,7 @@ Safe public material:
 - synthetic scene cards;
 - anonymized metrics only with clear scope labels.
 
-## Next Public Artifact
+## Current Public Artifacts
 
-Create a method card:
-
-```text
-DirectorShotIR in plain language
-```
-
-It should teach the fields without exposing private examples.
+- [DirectorShotIR field card](../templates/directorshotir-field-card.md)
+- [DirectorShotIR filled synthetic example](../examples/filled-directorshotir-oppressive-corridor.md)

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/sitemap.xml

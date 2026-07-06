@@ -75,16 +75,6 @@ Safe public material:
 - method explanation;
 - non-sensitive counts only when detached from story content.
 
-## Next Public Artifact
-
-Create a synthetic sample called:
-
-```text
-synthetic_script_to_package_sample.md
-```
-
-It should demonstrate the chain without using private scripts or assets.
-
-Current public sample:
+## Current Public Artifact
 
 [Synthetic script-to-package sample](SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md)

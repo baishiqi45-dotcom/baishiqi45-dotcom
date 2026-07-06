@@ -1,12 +1,18 @@
-# 白子烨 | AI Product Execution Director
+# 白子烨 | AI-native Product Execution Director
 
 [![GitHub Pages](https://img.shields.io/badge/public_site-live-245d4f)](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/)
 [![Methods](https://img.shields.io/badge/methods-public_library-2d5f8f)](methods/README.md)
 [![Templates](https://img.shields.io/badge/templates-ready_to_copy-a47526)](templates/README.md)
-[![Stars](https://img.shields.io/github/stars/baishiqi45-dotcom/baishiqi45-dotcom?style=social)](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom)
+[![License: MIT](https://img.shields.io/badge/license-MIT-171717)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/baishiqi45-dotcom/baishiqi45-dotcom?label=release)](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/releases)
 
 I work at the intersection of film direction, AI video production, agent
 workflow, and non-engineer product control.
+
+Beijing Film Academy photography/directing training gave me the image,
+narrative, rhythm, and continuity judgment. Four months of intense vibe-coding
+turned that judgment into AI-native execution surfaces: source selection, agent
+handoff, artifact review, retake logic, and lesson writeback.
 
 My public work is about one missing layer: turning creative intent and product
 intent into work that AI coding agents, external engineers, video tools, and
@@ -15,11 +21,15 @@ human reviewers can actually execute, inspect, retake, and learn from.
 > 我把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链。
 
 [Public site](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/) ·
+[Start in 5 minutes](#start-in-5-minutes) ·
 [Methods](methods/README.md) · [Templates](templates/README.md) ·
 [Cases](cases/README.md) ·
+[Examples](examples/README.md) ·
 [Roadmap](ROADMAP.md) ·
-[Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose) ·
-[Star this public method library](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom)
+[Changelog](CHANGELOG.md) ·
+[Contributing](CONTRIBUTING.md) ·
+[License](LICENSE) ·
+[Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose)
 
 ![AI production control loop](assets/ai-production-control-loop.svg)
 
@@ -49,19 +59,19 @@ Many people can use an AI coding agent casually. The harder layer is knowing:
 
 That is the public lane here.
 
-## Start Here
+## Start In 5 Minutes
 
-| Need | Best first artifact |
-| --- | --- |
-| AI video keeps breaking continuity or taste | [AI video continuity locks](templates/ai-video-continuity-locks.md) |
-| A team says "the AI output is bad" but cannot name why | [Failure-layer debug table](methods/README.md#failure-layer-debug-table) |
-| A non-engineer product idea needs the right first action | [Project Clinic startup packet](templates/project-clinic-startup-packet.md) |
-| A repo/workflow has many demos but no acceptance boundary | [Workflow rescue keep/kill map](templates/workflow-rescue-keep-kill-map.md) |
-| A video artifact exists but nobody knows whether it is reviewable | [Video admission ladder](templates/video-admission-ladder.md) |
+| If you are facing | Do this first | Then copy |
+| --- | --- | --- |
+| AI video clips look fine one by one but fail as a sequence | Read the [filled synthetic shot package](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | [AI video continuity locks](templates/ai-video-continuity-locks.md) |
+| A director note like "make it oppressive" cannot become agent work | Read the [DirectorShotIR synthetic teardown](cases/CASE_02_DIRECTORSHOTIR_CREW.md#synthetic-teardown-director-note-to-agent-task) | [DirectorShotIR field card](templates/directorshotir-field-card.md) |
+| A non-engineer product idea is not ready for coding or hiring | Read the [Project Clinic synthetic teardown](cases/CASE_03_PROJECT_CLINIC.md#synthetic-teardown-messy-request-to-first-safe-action) | [Project Clinic startup packet](templates/project-clinic-startup-packet.md) |
+| A workflow has demos, screenshots, reports, and no current truth | Start with the [workflow rescue map](templates/workflow-rescue-keep-kill-map.md) | [Outcome-delta writeback note](templates/outcome-delta-writeback-note.md) |
+| A video artifact exists but nobody knows if it is reviewable | Use the [video admission ladder](templates/video-admission-ladder.md) | [AI video continuity locks](templates/ai-video-continuity-locks.md) |
 
-If one of these templates saves you a false start, use the repository star as a
-bookmark. It helps other non-engineer operators and AI video teams discover the
-method library without turning the old tool repos into the headline.
+The fastest route is: read one filled synthetic example, copy one blank
+template, fill only public-safe or owner-approved material, then open an issue
+only if the question can be discussed without private assets.
 
 ## Public Case Tracks
 
@@ -71,13 +81,13 @@ project truth.
 | Case | Public value |
 | --- | --- |
 | [Script to dispatchable AI video packages](cases/CASE_01_SCRIPT_TO_PACKAGES.md) | How script intent becomes visual reference roles, image evidence, package review, retake logic, and operator handoff. |
-| [Synthetic script-to-package sample](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | A complete public-safe example using an invented scene, not private script or production material. |
+| [Filled synthetic script-to-package sample](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | A complete public-safe example using an invented scene, not private script or production material. |
 | [DirectorShotIR and crew-style agent work](cases/CASE_02_DIRECTORSHOTIR_CREW.md) | How one vague "AI brain" becomes role-based creative responsibility: director, art, camera, critic, QA. |
 | [Project Clinic for non-engineers](cases/CASE_03_PROJECT_CLINIC.md) | How one messy request becomes a source bundle, first task packet, review checklist, and reusable lesson. |
 
-## Why Star This Repo
+## Use This Repo When
 
-Star this repository if you want a public reference for:
+Use this repository as a public reference for:
 
 - AI video continuity review before more generation spend;
 - director-style agent task packets instead of vague prompts;
@@ -85,19 +95,9 @@ Star this repository if you want a public reference for:
 - video admission gates that stop weak evidence from becoming final claims;
 - public-safe templates you can copy into private owner workspaces.
 
-The star target is this profile/method repository. The older repos below are
-supporting proof slices, not the main thing to promote.
-
-## Public Building Blocks
-
-These repositories are supporting slices. They are not the headline.
-
-| Repository | Role | Public status |
-| --- | --- | --- |
-| [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | Intake pattern for turning messy material into review-required candidate evidence. | Reference slice |
-| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | Read-only advisor pattern where Codex keeps file access, local verification, and integration judgment over sidecar advice. | Reference slice |
-| [`epistemic-os`](https://github.com/baishiqi45-dotcom/epistemic-os) | Claim-scope guardrails so weak evidence does not become confident release language. | Guardrail slice |
-| [`netfix`](https://github.com/baishiqi45-dotcom/netfix) | Mac network rescue utility for operator downtime when agent tools cannot connect. | Practical utility |
+If a template or synthetic example saves you a false start, a star is a useful
+bookmark. Stars are not proof of product quality, client outcome, or final
+artifact acceptance.
 
 ## How I Work
 
@@ -123,3 +123,24 @@ Useful conversations usually start with one of these:
 Use the issue templates in this repository for public, method-level discussion.
 Do not upload private scripts, raw media, provider screenshots, account state,
 customer material, or final project acceptance truth to public issues.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. The
+accepted contribution types are intentionally narrow: synthetic examples,
+template clarity, broken-link fixes, and public-safe method language.
+
+## Public Building Blocks
+
+These repositories are supporting slices. They are not the headline.
+Manual profile pinning guidance: [GitHub profile pinning](docs/GITHUB_PROFILE_PINNING.md).
+
+<details>
+<summary>Reference repos and what they prove</summary>
+
+| Repository | Use this if | Public status | Not claimed |
+| --- | --- | --- | --- |
+| [`mmi-gateway`](https://github.com/baishiqi45-dotcom/mmi-gateway) | You need an intake pattern for turning messy material into review-required candidate evidence. | Reference slice | Not the current product identity. |
+| [`codex-sidecar-subagents`](https://github.com/baishiqi45-dotcom/codex-sidecar-subagents) | You need the read-only advisor pattern where Codex keeps file access, verification, and integration judgment. | Reference slice | Not autonomous truth or final acceptance. |
+| [`epistemic-os`](https://github.com/baishiqi45-dotcom/epistemic-os) | You need claim-scope guardrails so weak evidence does not become confident AI release language. | Guardrail slice | Not a complete runtime system. |
+| [`netfix`](https://github.com/baishiqi45-dotcom/netfix) | You need a practical Mac network rescue utility for operator downtime. | Utility satellite | Not part of the AI video method library. |
+
+</details>
