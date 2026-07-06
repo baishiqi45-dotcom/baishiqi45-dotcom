@@ -1,24 +1,20 @@
-# 白子烨 | AI-native Product Execution Director
+# 白子烨 / Bai Ziye
 
-[![GitHub Pages](https://img.shields.io/badge/public_site-live-245d4f)](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/)
-[![Methods](https://img.shields.io/badge/methods-public_library-2d5f8f)](methods/README.md)
-[![Templates](https://img.shields.io/badge/templates-ready_to_copy-a47526)](templates/README.md)
-[![License: MIT](https://img.shields.io/badge/license-MIT-171717)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/baishiqi45-dotcom/baishiqi45-dotcom?label=release)](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/releases)
+Film-trained AI production control for video, agents, and non-engineer product work.
 
-I work at the intersection of film direction, AI video production, agent
-workflow, and non-engineer product control.
+![Bai Ziye pixel work identity](assets/pixel-social-preview-1280x640.png)
+
+I translate director judgment into source selection, AI video shot packages,
+agent handoff, retake gates, artifact review, and lesson writeback for
+non-engineer operators.
+
+我把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链。
 
 Beijing Film Academy photography/directing training gave me the image,
-narrative, rhythm, and continuity judgment. Four months of intense vibe-coding
-turned that judgment into AI-native execution surfaces: source selection, agent
-handoff, artifact review, retake logic, and lesson writeback.
-
-My public work is about one missing layer: turning creative intent and product
-intent into work that AI coding agents, external engineers, video tools, and
-human reviewers can actually execute, inspect, retake, and learn from.
-
-> 我把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链。
+narrative, rhythm, continuity, and field judgment. Four months of intense
+vibe-coding turned that judgment into AI-native execution surfaces: what source
+an agent should read, what a tool output is allowed to prove, when a visual
+artifact needs a retake, and what can be written back as reusable method.
 
 [Public site](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/) ·
 [Start in 5 minutes](#start-in-5-minutes) ·
@@ -31,7 +27,18 @@ human reviewers can actually execute, inspect, retake, and learn from.
 [License](LICENSE) ·
 [Open a public-safe issue](https://github.com/baishiqi45-dotcom/baishiqi45-dotcom/issues/new/choose)
 
-![AI production control loop](assets/ai-production-control-loop.svg)
+[![GitHub Pages](https://img.shields.io/badge/public_site-live-245d4f)](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/)
+[![Methods](https://img.shields.io/badge/methods-public_library-2d5f8f)](methods/README.md)
+[![Templates](https://img.shields.io/badge/templates-ready_to_copy-a47526)](templates/README.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-171717)](LICENSE)
+
+## Start From The Failure
+
+| If this is the failure | Start here | Copy this |
+| --- | --- | --- |
+| AI video shots look fine alone but break as a sequence | [Filled synthetic shot package](cases/SYNTHETIC_SCRIPT_TO_PACKAGE_SAMPLE.md) | [AI video continuity locks](templates/ai-video-continuity-locks.md) |
+| A director note like "make it oppressive" cannot become agent work | [DirectorShotIR teardown](cases/CASE_02_DIRECTORSHOTIR_CREW.md#synthetic-teardown-director-note-to-agent-task) | [DirectorShotIR field card](templates/directorshotir-field-card.md) |
+| A non-engineer product idea is too messy to code or hire against | [Project Clinic teardown](cases/CASE_03_PROJECT_CLINIC.md#synthetic-teardown-messy-request-to-first-safe-action) | [Project Clinic startup packet](templates/project-clinic-startup-packet.md) |
 
 ## What I Am Packaging Publicly
 
@@ -44,10 +51,10 @@ human reviewers can actually execute, inspect, retake, and learn from.
 
 ## Why This Is Not A Generic Engineering Profile
 
-I started from Beijing Film Academy photography/directing. My advantage is not
-pretending to be a conventional full-stack engineer. It is translating image,
-narrative, rhythm, continuity, taste, and operator reality into AI-native work
-systems.
+I started from Beijing Film Academy photography/directing. The point is not to
+pretend I am a conventional full-stack engineer with a film hobby. The useful
+edge is translation: image, narrative, rhythm, continuity, taste, and on-set
+operator reality becoming AI-native work systems.
 
 Many people can use an AI coding agent casually. The harder layer is knowing:
 
@@ -74,6 +81,14 @@ template, fill only public-safe or owner-approved material, then open an issue
 only if the question can be discussed without private assets.
 
 ![Copy-ready public method preview](assets/method-preview-strip.png)
+
+## How The Control Loop Works
+
+The pixel identity is the public face. The diagram below is the operating
+model: intent becomes source selection, then agent handoff, then artifact
+review, then bounded retake or writeback.
+
+![AI production control loop](assets/ai-production-control-loop.svg)
 
 ## Public Case Tracks
 
