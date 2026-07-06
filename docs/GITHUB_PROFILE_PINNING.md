@@ -6,16 +6,23 @@ the profile points to the current method library before older support slices.
 ## Recommended Pins
 
 1. `baishiqi45-dotcom/baishiqi45-dotcom`
-   - Public method library for AI-native product execution, AI video production
-     control, Project Clinic, and artifact verification.
+   - Headline identity: film-trained AI production control for AI video,
+     agent handoff, Project Clinic, retake gates, and artifact review.
 2. `baishiqi45-dotcom/mmi-gateway`
-   - Reference slice: multimodal intake into review-required candidate evidence.
+   - Supporting proof slice, not the headline: multimodal intake into
+     review-required candidate evidence.
 3. `baishiqi45-dotcom/codex-sidecar-subagents`
-   - Reference slice: bounded read-only advisors with Codex-owned verification.
+   - Supporting proof slice, not the headline: bounded read-only advisors with
+     Codex-owned verification.
 4. `baishiqi45-dotcom/epistemic-os`
-   - Guardrail slice: claim-scope checks for candidate evidence.
-5. `baishiqi45-dotcom/netfix`
-   - Utility satellite: Mac network rescue for operator downtime.
+   - Supporting proof slice, not the headline: claim-scope checks for candidate
+     evidence.
+
+Optional pin:
+
+- `baishiqi45-dotcom/netfix`
+  - Keep only if a practical utility slot is useful. It is an operator downtime
+    tool, not part of the personal identity headline.
 
 ## Manual Steps
 
@@ -24,6 +31,15 @@ the profile points to the current method library before older support slices.
 3. Put this repository first.
 4. Keep older repositories as support slices, not the headline.
 5. Recheck descriptions after pinning so each repo has a current one-line role.
+
+## Visual Identity Checklist
+
+Manual GitHub profile actions:
+
+1. Upload `assets/pixel-avatar-512.png` as the GitHub account avatar.
+2. Keep this repository pinned first.
+3. Upload `assets/social-card.jpg` as this repository's social preview image.
+4. Use supporting repos only as proof slices below the method-library headline.
 
 ## Topic Suggestions
 
