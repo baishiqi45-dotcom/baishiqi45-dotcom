@@ -2,15 +2,20 @@
 
 ## Unreleased
 
-- Replaced the generic profile-card visual direction with a pixel work identity
-  based on the camera-operator persona.
-- Moved the GitHub README first screen toward film-trained AI production control
-  instead of a generic AI execution title.
-- Added failure-first navigation across the README, cases, methods, and
-  templates so visitors can start from a real breakdown rather than browse a
-  resource list.
+- Replaced the portrait/camera avatar direction with an abstract white-field
+  gate mark so the account avatar does not collide with the site's pixel and
+  method-card visuals.
+- Moved the README and site first screens toward copy-ready methods and proof
+  density: method cards first, one failure-start table, six templates, and a
+  concrete director-signal-to-agent-packet example.
+- Reduced defensive star/disclaimer language and kept the public/private
+  boundary in one collaboration section.
+- Added a 2026-07-08 pinning audit note because the live profile still needs
+  this profile repository pinned first.
+- Removed unused portrait/camera pixel identity assets from the active profile
+  surface so the repository presents one clearer visual direction.
 - Added a lightweight JPEG social card for GitHub/social preview compatibility
-  and kept the high-detail PNG for README display.
+  and kept a compact PNG source.
 
 ## v0.1.0 - 2026-07-06
 
