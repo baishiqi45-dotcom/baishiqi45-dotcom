@@ -22,13 +22,16 @@ templates. It does not publish private project assets or final acceptance truth.
 
 ## Next 30 Days
 
-1. Add a one-page visual PDF for the continuity locks.
-2. Turn `content/FIRST_10_POSTS.md` into public posts with links back to the
+1. Publish a short walkthrough that points to one concrete template or case.
+2. Add one real-use or redacted field note if owner approval allows it. If not,
+   state clearly that private projects stay private and the public library is
+   method-only.
+3. Turn `content/FIRST_10_POSTS.md` into public posts with links back to the
    relevant template or case.
-3. Convert the open template-request issues into small contributor tasks with a
+4. Add a one-page visual PDF for the continuity locks.
+5. Convert the open template-request issues into small contributor tasks with a
    done definition and expected file path.
-4. Add filled synthetic examples for the remaining blank templates.
-5. Publish a short walkthrough that points to one concrete template or case.
+6. Add filled synthetic examples for the remaining blank templates.
 
 ## Bookmark Principle
 
