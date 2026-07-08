@@ -2,20 +2,19 @@
 
 ## Unreleased
 
-- Replaced the portrait/camera avatar direction with an abstract white-field
-  gate mark so the account avatar does not collide with the site's pixel and
-  method-card visuals.
-- Moved the README and site first screens toward copy-ready methods and proof
-  density: method cards first, one failure-start table, six templates, and a
-  concrete director-signal-to-agent-packet example.
+- Restored the warm yellow pixel identity to the README, Pages hero, account
+  avatar guidance, and social preview after the abstract-only direction proved
+  too generic.
+- Added a `Bai` cut-mark favicon/control mark as a secondary identity asset
+  while keeping the pixel field portrait as the main public face.
+- Kept the stronger proof-density structure from PR #5: one failure-start table,
+  six copyable templates, and a concrete director-signal-to-agent-packet example.
 - Reduced defensive star/disclaimer language and kept the public/private
   boundary in one collaboration section.
 - Added a 2026-07-08 pinning audit note because the live profile still needs
   this profile repository pinned first.
-- Removed unused portrait/camera pixel identity assets from the active profile
-  surface so the repository presents one clearer visual direction.
-- Added a lightweight JPEG social card for GitHub/social preview compatibility
-  and kept a compact PNG source.
+- Replaced the method-card social preview with a lightweight JPEG/PNG derived
+  from the yellow pixel identity.
 
 ## v0.1.0 - 2026-07-06
 

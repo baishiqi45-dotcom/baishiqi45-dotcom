@@ -1,16 +1,20 @@
 # 白子烨 / Bai Ziye
 
-Film-trained AI production control for AI video, agent handoff, and
-non-engineer product work: 4 public-safe case tracks, 6 copy-ready templates,
-and issue routes that start from the failure.
+Film-trained AI production control for video, agents, and non-engineer product work.
 
-![Copy-ready public method preview](assets/method-preview-strip.png)
+![Bai Ziye pixel work identity](assets/pixel-social-preview-1280x640.png)
 
 I translate director judgment into source selection, AI video shot packages,
 agent handoff, retake gates, artifact review, and lesson writeback for
 non-engineer operators.
 
 我把导演判断、影像生产、AI coding agent 和产物验收接成一条可审查的控制链。
+
+Beijing Film Academy photography/directing training gave me image, narrative,
+rhythm, continuity, and field judgment. Four months of intense AI coding and
+agent work turned that judgment into execution surfaces: what source an agent
+should read, what a tool output is allowed to prove, when a visual artifact
+needs a retake, and what can be written back as reusable method.
 
 [Public site](https://baishiqi45-dotcom.github.io/baishiqi45-dotcom/) ·
 [Start from the failure](#start-from-the-failure) ·
@@ -40,6 +44,8 @@ non-engineer operators.
 The fastest route is: read one filled example, copy one blank template, fill
 only public-safe or owner-approved material, then open an issue only if the
 question can be discussed without private assets.
+
+![Copy-ready public method preview](assets/method-preview-strip.png)
 
 ## What You Can Copy
 

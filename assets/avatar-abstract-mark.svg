@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Abstract white-field seal mark">
-  <rect width="1024" height="1024" fill="#f6f1e7"/>
-  <rect x="246" y="218" width="532" height="588" rx="54" fill="#151515"/>
-  <rect x="384" y="306" width="256" height="74" rx="10" fill="#f6f1e7"/>
-  <rect x="348" y="446" width="328" height="252" rx="16" fill="#f6f1e7"/>
-  <rect x="430" y="520" width="164" height="104" rx="10" fill="#151515"/>
-  <rect x="598" y="602" width="62" height="62" rx="12" fill="#b07a24"/>
-  <rect x="246" y="218" width="532" height="588" rx="54" fill="none" stroke="#151515" stroke-width="16"/>
-</svg>
