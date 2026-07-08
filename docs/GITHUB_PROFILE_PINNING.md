@@ -42,14 +42,17 @@ current identity and routes the support repos.
 
 Manual GitHub profile actions:
 
-1. Upload `assets/avatar-abstract-mark-1024.png` as the GitHub account avatar.
-   It is an abstract white-field / gate mark, not a portrait and not a camera
-   icon. The older portrait/camera pixel identity was removed from the active
-   asset set because it collided with the site direction and read weaker at
-   small sizes.
+1. Upload `assets/pixel-avatar-512.png` as the GitHub account avatar if the
+   priority is personal identity and the warm pixel system. It is more
+   distinctive than the abstract gate mark, though less crisp at tiny comment
+   sizes.
 2. Keep this repository pinned first.
 3. Upload `assets/social-card.jpg` as this repository's social preview image.
-4. Use supporting repos only as proof slices below the method-library headline.
+   It now carries the warm yellow pixel identity rather than the method-card
+   screenshot.
+4. Use `assets/avatar-bai-cut-mark.svg` as the favicon/control mark only, not
+   the main account avatar.
+5. Use supporting repos only as proof slices below the method-library headline.
 
 ## Account Profile Fields
 
